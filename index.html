@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="colorlib.com">
+   <link rel="icon" href="Imagen/page-logo2.png">
+
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<form action="php/procesar.php" id="wizard" method="post" >
+			<h2></h2>
+			<section>
+				<div class="inner">
+					<div class="image-holder">
+						<div>
+							<img src="imagen/logo.jpg" alt="">
+						</div>
+
+					</div>
+					<div class="form-content">
+						<div class="form-header">
+							<h3>Formulario</h3>
+						</div>
+
+						<div class="form-row">
+							<div class="form-holder">
+								<input type="text" name="firstName" placeholder="Nombre" class="form-control" required>
+							</div>
+							<div class="form-holder">
+								<input type="text" name="lastName" placeholder="Apellido" class="form-control" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-holder">
+								<input type="text" name="cedula" placeholder="Cédula" class="form-control" required>
+							</div>
+							<div class="form-holder" style="align-self: flex-end; transform: translateY(4px);">
+								<label>Sexo:
+									<div class="checkbox-tick">
+
+										<label class="male">
+											<input type="radio" name="gender" value="M"> Masculino<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="female">
+											<input type="radio" name="gender" value="F"> Femenino<br>
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</label>
+							</div>
+						</div>
+						<div class="form-row">
+
+							<div class="form-holder">
+								<label>Fecha de nacimiento:
+									<input type="date" name="birdate" placeholder="Fecha de nacimiento" class="form-date-control" required>
+								</label>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-holder">
+								<input type="text" name="address" placeholder="Dirección" class="form-control" required>
+							</div>
+							<div class="form-holder">
+								<input type="email" name="email" placeholder="Email" class="form-control" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="" style="align-self: flex-end; transform: translateY(4px);">
+								<label>Institucion:
+									<div class="checkbox-tick">
+
+										<label class="male">
+											<input type="radio" name="institution" value="gubernamental"> Gubernamental<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="female">
+											<input type="radio" name="institution" value="educativa"> Educativa<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="male">
+											<input type="radio" name="institution" value="privada"> Privada<br>
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</label>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="" style="align-self: flex-end; transform: translateY(4px);">
+								<label>Especialidad:
+									<div class="checkbox-tick">
+
+										<label class="male">
+											<input type="radio" name="especialty" value="ingenieria"> Ingeniería<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="female">
+											<input type="radio" name="especialty" value="tecnologia"> Tecnología<br>
+											<span class="checkmark"></span>
+										</label>
+										<label class="male">
+											<input type="radio" name="especialty" value="educacion"> Educación<br>
+											<span class="checkmark"></span>
+										</label>
+									</div>
+								</label>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-holder">
+								<input type="tel" name="tel" placeholder="Teléfono" class="form-control" required>
+							</div>
+							<div class="sndbutton">
+								<input type="submit" value="Enviar Formulario" ">
+							</div>	
+						
+						</div>
+
+					</div>
+				</div>
+	</div>
+	</section>
+
+</body>
+<footer >
+	<p>	Nombre: Luis Gonzalez | Cedula: 3-755-368 | Grupo: 1LS131
+	</p>
+</footer>
+
+</html>
